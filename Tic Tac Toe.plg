@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tic Tac Toe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\windowns\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Tic Tac Toe.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Devry\C++\Tic Tac Toe\CanBlock.cpp"
+"C:\Devry\C++\Tic Tac Toe\CanWin.cpp"
+"C:\Devry\C++\Tic Tac Toe\ComputerMove.cpp"
+"C:\Devry\C++\Tic Tac Toe\DispBoard.cpp"
+"C:\Devry\C++\Tic Tac Toe\DisplayResult.cpp"
+"C:\Devry\C++\Tic Tac Toe\DrawCheck.cpp"
+"C:\Devry\C++\Tic Tac Toe\Main.cpp"
+"C:\Devry\C++\Tic Tac Toe\PlayerMove.cpp"
+"C:\Devry\C++\Tic Tac Toe\Stratagy.cpp"
+"C:\Devry\C++\Tic Tac Toe\Totals.cpp"
+"C:\Devry\C++\Tic Tac Toe\WinCheck.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\windowns\LOCALS~1\Temp\RSP3.tmp" 
+Creating temporary file "C:\DOCUME~1\windowns\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Tic Tac Toe.pdb" /debug /machine:I386 /out:"Debug/Tic Tac Toe.exe" /pdbtype:sept 
+".\Debug\CanBlock.obj"
+".\Debug\CanWin.obj"
+".\Debug\ComputerMove.obj"
+".\Debug\DispBoard.obj"
+".\Debug\DisplayResult.obj"
+".\Debug\DrawCheck.obj"
+".\Debug\Main.obj"
+".\Debug\PlayerMove.obj"
+".\Debug\Stratagy.obj"
+".\Debug\Totals.obj"
+".\Debug\WinCheck.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\windowns\LOCALS~1\Temp\RSP4.tmp"
+<h3>Output Window</h3>
+Compiling...
+CanBlock.cpp
+CanWin.cpp
+ComputerMove.cpp
+DispBoard.cpp
+DisplayResult.cpp
+DrawCheck.cpp
+Main.cpp
+PlayerMove.cpp
+Stratagy.cpp
+Totals.cpp
+C:\Devry\C++\Tic Tac Toe\Stratagy.cpp(106) : warning C4715: 'Stratagy' : not all control paths return a value
+WinCheck.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Tic Tac Toe.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
