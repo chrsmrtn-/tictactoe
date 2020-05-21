@@ -1,8 +1,10 @@
 //Preprocessor Directives
-#include <iostream.h>				//needed for cout statements
+#include <iostream>				//needed for cout statements
 #include <stdlib.h>					//needed for atoi and system statements
 #include <ctype.h>					//needed for isdigit function
 #include <conio.h>					//needed for _getche statements
+
+using namespace std;
 
 bool PlayerMove(unsigned int wBoard[])
 {

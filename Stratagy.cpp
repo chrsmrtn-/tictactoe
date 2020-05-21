@@ -95,7 +95,7 @@ unsigned int Stratagy(unsigned int wCTot[], unsigned int wRTot[], unsigned int w
 					return k;
 			}
 			//then it will try to take the corners
-			for(k = 0; k < 9; k += 2)
+			for(int k = 0; k < 9; k += 2)
 			{
 				if(wBoard[k] == 0)
 					return k;

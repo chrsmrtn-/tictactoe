@@ -1,5 +1,6 @@
 //Preprocessor Directives
-#include <iostream.h>			//needed for cout statements
+#include <iostream>			//needed for cout statements
+using namespace std;
 
 //Function Prototypes
 void Statistics(int, int, int);				//function needed to display the statistics

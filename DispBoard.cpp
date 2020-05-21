@@ -1,6 +1,7 @@
 //Preprocessor Directives
 #include <stdlib.h>				//needed for system statement
-#include <iostream.h>			//needed for cout statements
+#include <iostream>			//needed for cout statements
+using namespace std;
 
 
 void DispBoard(unsigned int wBoard[])

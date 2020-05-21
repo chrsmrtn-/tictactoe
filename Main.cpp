@@ -6,13 +6,15 @@
 //This program will be a tic tac toe game where the computer always wins
 
 //Preprocessor Directives
-#include <iostream.h>				//needed for cout statements
+#include <iostream>				//needed for cout statements
 #include <stdio.h>					//needed for printf statements
 #include <stdlib.h>					//needed for atoi and system statements
 #include <conio.h>					//needed for _getche statements
 #include <ctype.h>					//needed for isdigit function
 #include "TicTac.h"					//needed for function dealing with the Tic Tac Toe program, 
 									//descriptions can be found in the header file
+
+using namespace std;
 
 
 void main(void)
